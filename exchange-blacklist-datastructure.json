@@ -11,21 +11,21 @@
                     "Fake volume, check for wash trades"
                 ],
                 "user_api_enabled": "true",
-                "api_status": [
+                "api_status": {
                     "api_deposit" : "False",
                     "api_trading" : "False",
                     "api_withdrawl" : "True"
-                ],
-                "aggregator_availability": [
+                },
+                "aggregator_availability": {
                     "coinmarketcap" : "true",
                     "coingecko" : "true",
                     "cryptocompare" : "true",
                     "blockfolio" : "true"
-                ]                
+                }                
             },
-            "url" : "https://some-scam-exchange.com"
-            "created" : "epoch timestamp"
-            "last_incident" : "epoch timestamp"       
+            "url" : "https://some-scam-exchange.com",
+            "created" : "epoch timestamp",
+            "last_incident" : "epoch timestamp",
             "shutdown" : "epoch timestamp"
         }
     }

@@ -3,12 +3,9 @@
         "exchange_name": {
             "status": {
                 "still_trading": "true", 
-                //has this exchange been shutdown yet
                 "incident_count": "3",
                 "scamdex": "97", 
-                //Worst possible score is 100 (incident reports + api availability)
                 "reports": [ 
-                //Can expand this section to include href and source links to proofs
                     "Cannot withdraw",
                     "Account locked",
                     "Fake volume, check for wash trades"

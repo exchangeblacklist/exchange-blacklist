@@ -12,15 +12,15 @@
                 ],
                 "user_api_enabled": "true",
                 "api_status": [
-                    "api_deposit": "False",
-                    "api_trading": "False",
-                    "api_withdrawl": "True"
+                    "api_deposit" : "False",
+                    "api_trading" : "False",
+                    "api_withdrawl" : "True"
                 ],
                 "aggregator_availability": [
-                    "coinmarketcap": "true",
-                    "coingecko": "true",
-                    "cryptocompare": "true",
-                    "blockfolio": "true"
+                    "coinmarketcap" : "true",
+                    "coingecko" : "true",
+                    "cryptocompare" : "true",
+                    "blockfolio" : "true"
                 ]                
             },
             "url" : "https://some-scam-exchange.com"

@@ -6,10 +6,13 @@ https://exchangeblacklist.com/api
 
 # API Examples
 List all blacklisted exchanges still trading
+
 `curl https://exchangeblacklist.com/api | jq '.data | select((status[].still_trading == "true") and .url)'`
 
 List all known exchanges currently blacklisted by url
+
 `curl https://exchangeblacklist.com/api | jq .data.[].url`
 
 List all known exchanges without user API
+
 `curl https://exchangeblacklist.com/api | jq '.data.[] | select(.user_api_enabled == "true")'`

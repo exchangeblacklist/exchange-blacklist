@@ -5,8 +5,8 @@ This is an always up-to-date community driven blacklist of cryptocurrency exchan
 https://exchangeblacklist.com/api
 
 # API Examples
-List all blacklisted exchanges still trading
-curl https://exchangeblacklist.com/api | jq '.data | select((status[].still_trading == "true") and .url)'
+```List all blacklisted exchanges still trading
+curl https://exchangeblacklist.com/api | jq '.data | select((status[].still_trading == "true") and .url)'```
 
 List all known exchanges currently blacklisted by url
 curl https://exchangeblacklist.com/api | jq .data.[].url

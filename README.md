@@ -1,0 +1,2 @@
+# exchange-blacklist
+This is an always up-to-date community driven blacklist of cryptocurrency exchanges that have been flagged as scams due to real-world user experiences.  Please submit your stories and source materials as pull requests and the list will be updated.  For ease of access we choose the JSON format which will allow you to easily build queries around dangerous exchanges.  Stay frosty!
